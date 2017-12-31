@@ -8,18 +8,16 @@ The Akira server process provides routes related to authentication, data managem
 
 ### Table of Contents
 
+- [Server API](#server-api)
 - [Environment Setup](#env-setup)
-- [Router Use and Configuration](#router-config)
-- [Process Engine API](#process-engine-api)
-- [Service API](#service-api)
-- [Process Configuration](#process-config)
-- [For Developers of this Module](#for-devs)
+
+### <a name="server-api"></a>Server API
 
 ### <a name="env-setup"></a>Environment Setup
 
-This module requires the presence of the AKIRA_SERVER_PORT environment variables.
+This module requires the AKIRA_SERVER_PORT environment variable.
 
-Common values:
+Example:
 
 ```
 AKIRA_SERVER_PORT = 5000
