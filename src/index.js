@@ -17,8 +17,8 @@ app.get('/', (req, res) => {
   });
 });
 
-// http://localhost:5000/api/v1/test/224
-app.get('/api/v1/test/:id', (req, res) => {
+// http://localhost:5000/api/v1/tracked-item/224
+app.get('/api/v1/tracked-item/:id', (req, res) => {
   const dbConfig = {
     knex,
     transaction: null
